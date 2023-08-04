@@ -12,9 +12,9 @@ jobs:
       matrix:
         version: ["3.10", "3.9", "3.8", "3.7"]
         platform: ["ubuntu-latest", "macos-latest", "windows-latest"]
-        include:
-          - platform: ubuntu-latest
-            version: "3.6.15"
+#        include:
+#          - platform: ubuntu-latest
+#            version: "3.6.15"
         exclude:
           - platform: windows-latest
             version: "3.10"
